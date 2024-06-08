@@ -1,43 +1,45 @@
-.container-404{
+.container-404 {
     background-color: rgb(255, 130, 180);
 }
 
-.w-img404{
+.w-img404 {
     width: 80%;
-  
+
 }
 
 
 a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: 50px;
-    font-family: "Rpwdies","disply";
+    font-family: "Rpwdies", "disply";
     font-weight: 400;
     line-height: normal;
 }
 
-p{
+p {
     font-size: 16px;
-    font-family: "outfit",sans-serif;
+    font-family: "outfit", sans-serif;
     font-weight: 400;
     line-height: 28px;
 }
 
-a{
+a {
     font-size: 19px;
-    font-family: "outfit",sans-serif;
+    font-family: "outfit", sans-serif;
     font-weight: 600;
     line-height: 22px;
-    color:wheat;
+    color: wheat;
     outline: none;
     border: none;
     background-color: rgb(64, 127, 151);
 
 
 }
-div.transform{
+
+div.transform {
     transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
     -moz-transform: translateY(-15px);
