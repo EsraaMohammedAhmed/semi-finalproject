@@ -2,13 +2,16 @@
     background-color: #FFDBE2;
 }
 
-.backgroundImg-Shop {
-    background-image: url(../images-ice-crem/sweeny-home-1-decoration-2.png);
-    background-position: top;
+.caption-svg {
+    background-image: url(../images-ice-crem/decor-color-bg-2.svg);
+    background-position:  center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgb(255, 123, 189);
+    background-color: rgb(255, 140, 189);
     color: antiquewhite;
+    top: 5%;
+    left: 0%;
+    right: 0%;
 
 }
 

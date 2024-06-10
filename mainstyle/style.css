@@ -1188,10 +1188,6 @@ tbody tr td {
 
 .img-borderradious-20 {
     border-radius: 20em;
-    -webkit-border-radius: 20em;
-    -moz-border-radius: 20em;
-    -ms-border-radius: 20em;
-    -o-border-radius: 20em;
     border: 5px solid rgb(88, 56, 110);
     position: relative;
     overflow: hidden;
@@ -1202,11 +1198,11 @@ tbody tr td {
     position: absolute;
     inset: 0;
     display: block;
-    transition: all .4s ease-out;
-    -webkit-transition: all .4s ease-out;
-    -moz-transition: all .4s ease-out;
-    -ms-transition: all .4s ease-out;
-    -o-transition: all .4s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .img-borderradious-20:hover::after {
@@ -1240,13 +1236,13 @@ tbody tr td {
 .img-icecrem-YummyToppings,
 .img-donuts {
     overflow: hidden;
-    transition: all 2s;
-    -webkit-transition: all 5s;
-    -moz-transition: all 5s;
-    -ms-transition: all 2s;
-    -o-transition: all 2s;
-    animation: img-yummy 2s linear infinite alternate;
-    -webkit-animation: img-yummy 2s linear infinite alternate;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    animation: img-yummy 1s linear infinite alternate;
+    -webkit-animation: img-yummy 1s linear infinite alternate;
 }
 
 @keyframes img-yummy {
@@ -1353,11 +1349,11 @@ h2.maintitleSectionCard-ImgBotomAndTop {
     -moz-border-radius: 30px 30px 30px 30px;
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
-    transition: all .6s ease-out;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .card-ImgOne img {
@@ -1373,11 +1369,11 @@ h2.maintitleSectionCard-ImgBotomAndTop {
     position: absolute;
     inset: 0;
     display: block;
-    transition: all .6s ease-out;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .card-One-backdround-yellow:hover::after {
@@ -1408,11 +1404,11 @@ h2.maintitleSectionCard-ImgBotomAndTop {
     position: absolute;
     inset: 0;
     display: block;
-    transition: all .6s ease-out;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .card-Three-background-pink:hover::after {
@@ -1442,11 +1438,11 @@ h2.maintitleSectionCard-ImgBotomAndTop {
     position: absolute;
     inset: 0;
     display: block;
-    transition: all .6s ease-out;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .cardTwo-Background-blakblue:hover::after {
@@ -1474,11 +1470,11 @@ h2.maintitleSectionCard-ImgBotomAndTop {
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
     overflow: hidden;
-    transition: all .6s ease-out;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
 }
 
 .card-Imgtwo img {
@@ -1597,14 +1593,13 @@ h2.title-SectionLogo {
     line-height: 53px;
     color: #FD85B2;
 }
-
+/* ============section fun////////=============== */
 .title-SectionFun {
     font-size: 44px;
     font-weight: 400;
     font-family: "Rowdies", "display";
     line-height: 53px;
 }
-
 
 .paragraph-SectionnFun {
     font-family: "Outfit", sans-serif;
@@ -1673,12 +1668,26 @@ h2.title-SectionLogo {
     -moz-transform: rotate(-19deg);
     -ms-transform: rotate(-19deg);
     -o-transform: rotate(-19deg);
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    z-index: 2221;
+    transition: all  1s ease-in-out;
+    -webkit-transition: all  1s ease-in-out;
+    -moz-transition: all  1s ease-in-out;
+    -ms-transition: all  1s ease-in-out;
+    -o-transition: all  1s ease-in-out;
+    animation: imgs-move alternate infinite 1s linear ;
+    -webkit-animation: imgs-move alternate infinite 1s linear ;
+}
+
+@keyframes imgs-move{
+
+0%{ transform:rotate(-19deg) ;
+}
+    100%{
+        transform: rotate(19deg);
+        -webkit-transform: rotate(19deg);
+        -moz-transform: rotate(19deg);
+        -ms-transform: rotate(19deg);
+        -o-transform: rotate(19deg);
+}
 }
 
 .gallaryFun-img-1:hover {
@@ -1692,17 +1701,15 @@ h2.title-SectionLogo {
 
 .gallaryFun-img-2 {
     transform: rotate(19deg);
-    -webkit-transform: rotate(19deg);
-    -moz-transform: rotate(19deg);
-    -ms-transform: rotate(19deg);
-    -o-transform: rotate(19deg);
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    animation:infinite 1s alternate imgs2-move ;
+    transition: all 1s ease-in-out;
+    -webkit-animation:infinite 1s alternate imgs2-move linear ;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    animation-delay: 2s;
 }
-
 
 .gallaryFun-img-2:hover {
     transform: rotate(-19deg);
@@ -1711,7 +1718,6 @@ h2.title-SectionLogo {
     -ms-transform: rotate(-19deg);
     -o-transform: rotate(-19deg);
 }
-
 .gallaryFun-img-1:hover .gallaryFun-img-2 {
     transform: translate(19);
     -webkit-transform: translate(19);
@@ -1727,6 +1733,8 @@ h2.title-SectionLogo {
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+    animation: imgs-move 1s alternate infinite linear ;
+    -webkit-animation: imgs-move 1s alternate infinite linear ;
 }
 
 .gallaryFun-img-3:hover {
@@ -1739,7 +1747,20 @@ h2.title-SectionLogo {
 
 .gallaryFun-img-4 {
     transform: rotate(19deg);
+    animation: imgs2-move infinite alternate 1s linear;
+    -webkit-animation: imgs2-move infinite alternate 1s linear;
+}
 
+@keyframes imgs2-move{
+    0%{
+        transform: rotate(19deg);
+
+    }
+
+    100%{
+        transform: rotate(-19deg);
+       
+}
 }
 
 .gallaryFun-img-4:hover {
@@ -1758,11 +1779,15 @@ h2.title-SectionLogo {
 
 /* ================================= */
 .footer {
-    background-image: url(../images-ice-crem/sweeny-home-1-decoration-2.png);
-    background-color: #fd6ba0;
-    background-position: top;
+    background-image: url(../images-ice-crem/decor-color-bg-2.svg);
+    background-color: #f574a4;
+    background-position:top;
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: "outfit",sans-serif;
+    font-weight: 400;
+  font-size: 16;
+line-height: 28px;
 }
 
 .footer .footer-row {
@@ -1772,6 +1797,8 @@ h2.title-SectionLogo {
     gap: 3.5rem;
     padding: 60px;
 }
+
+
 
 .footer-row .footer-col h4 {
     color: #fff;
